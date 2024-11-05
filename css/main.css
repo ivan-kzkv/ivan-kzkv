@@ -1,0 +1,17 @@
+.profile__img {
+    overflow: hidden;
+}
+
+.profile__img img {
+    transform: scale(2.5);
+    object-fit: cover;
+    transform-origin: center;
+}
+
+@media screen and (min-width: 768px) {
+    .profile__img img {
+        transform: scale(1.5);
+        object-fit: cover;
+        transform-origin: center;
+    }
+}
