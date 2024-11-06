@@ -15,7 +15,7 @@
     <div class="container-md">
         <nav class="navbar navbar-expand-md bg-body-tertiary">
             <div class="container-fluid">
-                <a class="navbar-brand" href="./index.html">Resume Ivan Kozikov</a>
+                <a class="navbar-brand" href="./index.html">Resume<small class="text-body-secondary ms-2">Ivan Kozikov</small></a>
                 <button class="navbar-toggler"
                         type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarColor04"
@@ -54,19 +54,100 @@
             </ul>
         </div>
     </section>
-    <section class="container-md my-2">
+    <section class="container-md my-2" id="skills">
         <div class="card border border-primary">
             <h3 class="card-header">Skills</h3>
-
+            <div class="container-fluid">
+                <div class="my-2">
+                    <h4><i class="bi bi-browser-chrome me-3"></i>Front-End Development</h4>
+                    <p class="fs-4">Angular, React, Bootstrap, ElectronJs</p>
+                </div>
+                <div class="my-2">
+                    <h4><i class="bi bi-ethernet me-3"></i>Back-End Development</h4>
+                    <p class="fs-4">SpringBoot, Micronaut, Hibernate, Junit, NodeJs</p>
+                </div>
+                <div class="my-2">
+                    <h4><i class="bi bi-database-fill me-3"></i>Database Management</h4>
+                    <p class="fs-4">PostgreSQL, MongoDB, SQLite, H2</p>
+                </div>
+                <div class="my-2">
+                    <h4><i class="bi bi-file-diff-fill me-3"></i>Tools</h4>
+                    <p class="fs-4">Git, Jira, Docker, Kubernetes, Jenkins, DataDog</p>
+                </div>
+            </div>
         </div>
     </section>
-    <section></section>
-    <section></section>
-<!--    second section skills-->
-<!--    third section certifications-->
-<!--    fourth section pulications -->
+    <section class="container-md my-2" id="certifications">
+        <div class="card border border-primary">
+            <h3 class="card-header">Certifications</h3>
+            <div class="container-fluid">
+                <div class="my-2">
+                    <h5 class="my-0">Oracle Certified Associate, Java SE 8 Programmer</h5>
+                    <p class="fs-5 text-body-secondary my-0">Oracle University</p>
+                    <time>February 26 2021</time>
+                </div>
+
+                <div class="my-2">
+                    <h5 class="my-0">Certified Kubernetes Application Developer</h5>
+                    <p class="fs-5 text-body-secondary my-0">The Cloud Native Computing Foundation</p>
+                    <time>July 31, 2021</time>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="container-md my-2">
+        <div class="card border border-primary" id="publications">
+            <h3 class="card-header">Publications</h3>
+            <div class="container-fluid">
+                <div class="my-2">
+                    <h5 class="my-0">Comparing Micronaut and Spring</h5>
+                    <p class="fs-5 text-body-secondary my-0">DOU</p>
+                    <a href="https://dou.ua/forums/topic/35583/" target="_blank" class="d-block text-info-emphasis">Publication text</a>
+                    <time class="fs-6">December 7, 2021</time>
+                </div>
+
+                <div class="my-2">
+                    <h5 class="my-0">Reusable components in Angular</h5>
+                    <p class="fs-5 text-body-secondary my-0">Medium</p>
+                    <a href="https://medium.com/@kozikov.work/save-your-time-and-code-with-
+                    reusable-components-and-injectiontoken-in-angular-c1c1d377258d" target="_blank" class="d-block text-info-emphasis">Publication text</a>
+                    <time class="fs-6">March 10, 2020</time>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
-<footer></footer>
+<footer class="bg-light text-center text-lg-start mt-5">
+    <div class="container p-4">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <h6 class="text-uppercase fw-bold">Contact</h6>
+                <p>Email: <a href="mailto:kozikov.work@gmail.com">kozikov.work@gmail.com</a></p>
+                <p>Phone: <a href="tel:+380676660023">+380676660023</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/ivan-kozikov-3916859b/" target="_blank">Ivan Kozikov</a></p>
+                <p>GitHub: <a href="https://github.com/ivan-kzkv" target="_blank">ivan-kzkv</a></p>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <h6 class="text-uppercase fw-bold">Quick Links</h6>
+                <ul class="list-unstyled">
+                    <li><a href="#skills" class="text-dark">Skills</a></li>
+                    <li><a href="#certifications" class="text-dark">Certifications</a></li>
+                    <li><a href="#publications" class="text-dark">Publications</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-md-12 mb-4">
+                <h6 class="text-uppercase fw-bold">Connect with Me</h6>
+                <a href="https://www.facebook.com/ivan.kozikov.7/?locale=uk_UA" target="_blank" class="text-dark me-3"><i class="fab fa-facebook"></i> Facebook</a>
+                <a href="https://www.instagram.com/ivan_kzkv/" target="_blank" class="text-dark"><i class="fab fa-instagram"></i> Instagram</a>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Bottom -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2024 Kozikov Ivan
+    </div>
+</footer>
 <script src="./js/bootstrap.min.js"></script>
 </body>
 </html>
